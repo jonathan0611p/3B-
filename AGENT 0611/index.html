@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expedition Report</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="report-shell">
+      <header class="report-header">
+        <p class="eyebrow">CS-110 // Expedition Report</p>
+        <h1>The search for the key</h1>
+        <p>The Civic Archive Dome Exploration: Horror, to find the key that will get the exploration team out.</p>
+      </header>
+
+      <section class="scene is-active" data-scene="0">
+        <p class="scene-number">Scene 01 // Arrival</p>
+        <h2>I found the main </h2>
+        <img src="images/Dome.jpg" alt="Dome" style="width:500px;height:400px;">
+        <p>Replace this paragraph with the opening of your expedition account.</p>
+      </section>
+
+      <section class="scene" data-scene="1" hidden>
+        <p class="scene-number">Scene 02 // Discovery</p>
+        <h2>What changed the mission?</h2>
+        <div class="image-placeholder" role="img" aria-label="Add an original or properly credited discovery image here.">Add discovery image</div>
+        <p>Replace this paragraph with the evidence, creature, failure, or absurd complication your character discovered.</p>
+      </section>
+
+      <section class="scene" data-scene="2" hidden>
+        <p class="scene-number">Scene 03 // Outcome</p>
+        <h2>What should Kairova do next?</h2>
+        <div class="image-placeholder" role="img" aria-label="Add an original or properly credited outcome image here.">Add outcome image</div>
+        <p>Replace this paragraph with the result and the recommendation for your report's audience.</p>
+      </section>
+
+      <nav class="scene-controls" aria-label="Story scenes">
+        <button id="previous-scene" type="button">Previous</button>
+        <span id="scene-status" aria-live="polite">Scene 1 of 3</span>
+        <button id="next-scene" type="button">Next</button>
+      </nav>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
